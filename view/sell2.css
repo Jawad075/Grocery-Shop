@@ -1,0 +1,208 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6ac73fd2; /* Background color */
+}
+
+/* Header Styling */
+#header {
+    background-color: rgba(79, 71, 125, 0.6); /* Semi-transparent purple */
+    color: rgb(4, 10, 5); /* Text color */
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+  
+}
+
+/* Container Styling */
+.container {
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgb(171, 177, 220);
+    border: 2px solid #0f010a;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #9d2c2c;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+th {
+    background-color: #36852b;
+    color: white;
+}
+
+/* Input and Select Box Styling */
+input[type="text"], input[type="number"], select {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+/* Focus on Input and Select Fields */
+input[type="text"]:focus, input[type="number"]:focus, select:focus {
+    outline: none;
+    border: 1px solid #36852b;
+    box-shadow: 0 0 8px rgba(43, 127, 133, 0.6);
+}
+
+/* Error Styling */
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Form Button Styling */
+input[type="submit"] {
+    background-color: #36852b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+/* Profile Button Styling */
+.profile-wrapper {
+    position: fixed;
+    top: 1px;
+    right: 60px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.profile-button {
+    width: 80px;
+    height: 80px;
+    background-color: #f4ea33;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border: none;
+}
+
+.profile-button:hover {
+    background-color: #48eb9a;
+}
+
+.profile-label {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Order History Button Styling */
+.order-history-wrapper {
+    position: fixed;
+    top: 1px;
+    right: 160px;
+    z-index: 1000;
+    text-align: center;
+}
+
+.order-history-button {
+    width: 80px;
+    height: 80px;
+    background-color: #1b0564;
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border: none;
+}
+
+.order-history-button:hover {
+    background-color: #0b638b;
+}
+
+.order-history-label {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+/* Ensure spacing if necessary */
+.profile-wrapper, .order-history-wrapper {
+    margin-top: 20px;
+}
+
+/* Image Container */
+#image-container {
+    position: fixed;
+    top: 5px;
+    left: 45px;
+    padding: 10px;
+    z-index: 1;
+}
+
+#grocery-image {
+    height: 100px;
+    width: auto;
+    border-radius: 20%;
+}
+
+/* General Button Styling */
+button {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #48eb9a;
+}
+
+/* Total Sale Display */
+.order-summary {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.place_order {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cf0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.place_order:hover {
+    background-color: #388E3C;
+}
