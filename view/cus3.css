@@ -1,0 +1,11 @@
+.error {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(228, 175, 193);
+}
+ 
+ 

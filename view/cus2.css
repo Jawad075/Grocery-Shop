@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fb5852d2;
+}
+
+
+#header {
+    background-color: #0b6b5ea3;
+    color: rgb(4, 10, 5);
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+   
+}
+
+
+.container {
+    max-width: 90%;
+     margin: auto;
+     margin-top: 10px;  
+    padding: 20px;
+    background-color: rgb(172, 198, 233);
+    border: 2px solid #0f010a;
+    
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9d2c2c;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #36852b;
+    color: white;
+}
+
+
+.place_order {
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    background-color: #0f14a0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+
+.place_order:hover {
+    background-color: #485fd1;
+}
+
+#image-container {
+    position: fixed;
+    top: 5px;
+    left: 45px;
+    z-index: 1; 
+    padding: 10px;
+
+}
+
+#grocery-image {
+    height: 100px;
+    width: auto;
+    border-radius: 20%;
+
+}
+
+
+
+ 
+
+ .profile-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 60px;  
+    text-align: center;
+    z-index: 1000;
+}
+
+.profile-button {
+    width: 80px;
+    height: 80px;
+    background-color: #f4ea33;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border: none;
+}
+
+.profile-button:hover {
+    background-color: #48eb9a;
+}
+
+.profile-label {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+ .order-history-wrapper {
+    position: fixed;
+    top: 20px;
+    right: 160px;  
+    text-align: center;
+    z-index: 1000;
+}
+
+.order-history-button {
+    width: 80px;
+    height: 80px;
+    background-color: #1b0564;
+    border-radius: 50%;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+    border: none;
+}
+
+.order-history-button:hover {
+    background-color: #0b638b;
+}
+
+.order-history-label {
+    font-size: 14px;
+    color: #000;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+ .order-summary {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.place_order {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.place_order:hover {
+    background-color: #388E3C;
+}
